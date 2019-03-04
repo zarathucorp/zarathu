@@ -1,0 +1,381 @@
+# Site settings
+baseurl = "https://www.zarathu.com/"
+languageCode = "en-us"
+title = "Zarathu - Medical Research Supporters"
+theme = "hugo-agency-theme"
+
+# Ignore
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-122112532-2"
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "ZARATHU"
+  description = "Medical Research Supporters"
+  email = "jinseob2kim@gmail.com"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon_anpanman.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "Zarathu"
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    services = "Services"
+    portfolio = "Portfolio"
+    about = "About"
+    team = "Team"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "http://app.zarathu.com/"
+      name = "App"
+      weight = 10
+    
+    [[menu.postpend]]
+      url = "https://blog.zarathu.com/"
+      name = "Blog"
+      weight = 10
+
+
+  # Hero section
+  [params.hero]
+    # To change the background image of the hero, replace 'header-bg.jpg' in
+    # the 'static/img' folder.
+    title = "Medical Research Supporters"
+    subtitle = "맞춤형 의학통계 앱을 제공합니다."
+    buttonText = "연구지원 신청하기"
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    subtitle = "맞춤형 연구지원으로 의학연구 활성화를 이끌겠습니다."
+
+
+    [[params.services.row]]
+
+    [[params.services.row.list]]
+      icon = "fa-area-chart"
+      title = "Applications"
+      description = "연구 맞춤형 통계 애플리케이션을 만들어 드립니다. 웹/모바일에서 내 연구에 꼭 맞는 통계분석을 수행한 후, 논문용 테이블과 그림을 다운받을 수 있습니다."
+      url = "http://app.anpanman.co.kr/"
+
+    [[params.services.row.list]]
+      icon = "fa-comments"
+      title = "Consulting"
+      description = "의료데이터 분석을 위한 컨설팅을 제공합니다. 심평원과 건강보험공단이 개최한 '보건의료빅데이터를 활용한 창업아이디어 공모전'에 선정, 공공 빅데이터 이용에 대한 맞춤 지원을 받고 있습니다."
+      url = "http://pf.kakao.com/_XsuxgC"
+
+    [[params.services.row.list]]
+      icon = "fa-book"
+      title = "Education"
+      description = "의학통계 교육을 제공합니다."
+      url = "https://blog.anpanman.co.kr/"
+
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = "Portfolio"
+    subtitle = "그동안 도와드렸던 연구입니다."
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close project"
+
+
+    # About section
+  [params.about]
+    enable = true
+    title = "About"
+    subtitle = "Zarathu의 발자취입니다."
+    endpoint = "Be part<br>of our<br>story!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "kstartup.jpg"
+      date = "May 2018"
+      title = "창업선도대학 (예비)창업팀으로 선정"
+      description = "서울대학교 보건대학원 유전체역학교실 소속으로 중소벤처기업부 주관 '창업선도대학 (예비)창업팀'에 선정되었습니다(주제: 블록체인 기반 유전체-건강 빅데이터 구축 및 정밀 의학 솔루션)."
+    
+    [[params.about.events]]
+      img = "hwellhira.jpg"
+      date = "August 2018"
+      title = "보건의료빅데이터를 활용한 창업아이디어 공모전 선정"
+      description = "건강보험심사평가원과 건강보험공단이 개최한 '보건의료빅데이터를 활용한 창업아이디어 공모전'에 선정, 공공 빅데이터 이용에 대한 맞춤 지원을 받게 되었습니다(주제: 맞춤형 의학연구 애플리케이션). "
+      
+      
+    [[params.about.events]]
+      img = "logo.jpg"
+      date = "August 2018"
+      title = "회사 설립"
+      description = "회사를 설립하였습니다."
+
+
+  # Team section
+  [params.team]
+    enable = true
+    # Possibility to center items
+    #center = true
+    title = "Our amazing team"
+    subtitle = "Zarathu는 의학연구지원 전문가들로 이루어져 있습니다."
+    description = "의학연구를 전문화시켜, 연구지원 전문가라는 새로운 직업과 이들이 성장할 수 있는 토대를 만들어 나가겠습니다."
+
+    # All team member's pictures are stored under 'static/img/team'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.team.members]]
+      img = "jinseob2kim.jpeg"
+      name = "Jinseob Kim"
+      position = "Lead Supporter"
+      reportsTo = "Founder"
+      livesIn = "[Seoul, Korea](https://www.google.co.kr/maps/place/%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C/@37.5712302,126.9917377,14z/data=!4m5!3m4!1s0x357ca28b61c565cd:0x858aedb4e4ea83eb!8m2!3d37.566535!4d126.9779692?hl=ko)"
+      scope = [
+        "Software Engineer at [Samsung Electronics](http://health.chosun.com/news/dailynews_view.jsp?mn_idx=165897)",
+        "M.P.H & Ph.D Candidate at [SNU G-EPI Lab.](http://snugepi.snu.ac.kr/)",
+        "Preventive Medicine Residency at [SNU GSPH](http://snu-prev.com/)",
+        "M.D at [SKKU](http://www.skkumed.ac.kr/)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = "의사로서 다양한 건강 데이터를 다뤄본 경험을 바탕으로 의학연구 활성화를 이끌겠습니다."
+      social = [
+        ["fa-github", "https://github.com/jinseob2kim"],
+        ["fa-facebook", "https://www.facebook.com/secondmath"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jinseob-kim-%EA%B9%80%EC%A7%84%EC%84%AD-456550a5/"]
+      ]
+
+    #[[params.team.members]]
+    #  img = ""
+    #  name = "P2"
+    #  position = "Lead Marketer"
+    #  social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
+
+    #[[params.team.members]]
+    #  img = ""
+    #  name = "P3"
+    #  position = "Lead Developer"
+    #  social = [
+    #    ["fa-twitter", "#"],
+    #    ["fa-facebook", "#"],
+    #    ["fa-linkedin", "#"]
+    #  ]
+
+  # Client section
+    [params.clients_list]
+      enable = true
+      # Possibility to center items
+      #center = true
+      # Optional client title specifying the involvement
+      #title = "Used and trusted by"
+
+      # All the clients' logos are stored under 'static/img/logos'.
+      # Replace them with your clients's logos.
+      # Suggestion: .svg in the size of 280px*80px looks good
+      [[params.clients]]
+        logo = "venture.jpg"
+        link = "https://www.k-startup.go.kr/homepage/businessManage/businessManageFunction.do?sid=111&itemSeq=1060"
+
+      [[params.clients]]
+        logo = "snugsph.jpg"
+        link = "http://health.snu.ac.kr/"
+
+      [[params.clients]]
+        logo = "hwell.jpg"
+        link = "https://nhiss.nhis.or.kr/"
+
+      [[params.clients]]
+        logo = "hira.jpg"
+        link = "http://opendata.hira.or.kr/"
+        
+      [[params.clients]]
+        logo = "smc.jpg"
+        link = "http://www.samsunghospital.com/"
+      
+      [[params.clients]]
+        logo = "skku.png"
+        link = "http://www.skkumed.ac.kr/"
+      
+      [[params.clients]]
+        logo = "eulji.png"
+        link = "https://medicine.eulji.ac.kr/"
+        
+      [[params.clients]]
+        logo = "dsmc.gif"
+        link = "http://www.dsmc.or.kr/"
+        
+      [[params.clients]]
+        logo = "kdss.jpg"
+        link = "https://www.kdh.or.kr:446/"
+      
+      [[params.clients]]
+        logo = "bh.jpg"
+        link = "https://seoul.bohun.or.kr/000main/index.php"
+      
+      [[params.clients]]
+        logo = "ncmh.jpg"
+        link = "http://www.ncmh.go.kr/"
+      
+      [[params.clients]]
+        logo = "cauhs.gif"
+        link = "http://ch.cauhs.or.kr/"
+      
+      #[[params.clients]]
+      #  logo = "logo_ilsan.png"
+      #  link = "http://www.paik.ac.kr/ilsan/"
+        
+      #[[params.clients]]
+      #  logo = "kscvi_bifur.png"
+      #  link = "http://www.kscvi.org/new_ksic2015/community/main/kbc/"  
+
+
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contact us"
+    subtitle  = ""
+    buttonText = "Send message"
+    #netlify = true
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "jinseob2kim@gmail.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    [params.contact.captcha]
+      #sitekey = ""
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.name]
+      text = "Your Name *"
+      warning = "Please enter your name."
+
+    [params.contact.form.email]
+      text = "Your Email *"
+      warning = "Please enter your email address."
+
+    [params.contact.form.phone]
+      text = "Your Phone *"
+      warning = "Please enter your phone number."
+
+    [params.contact.form.message]
+      text = "Your Message *"
+      warning = "Please enter a message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "&copy;2019 ZARATHU Co.,Ltd. All rights reserved."
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/zarathucorp"
+      title = "Github"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      link = "https://www.facebook.com/anpanmancorp"
+      title = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "https://www.linkedin.com/company/zarathu"
+      title = "LinkedIn"
+    
+    [[params.footer.social]]
+      icon = "fa-comments"
+      link = "https://pf.kakao.com/_XsuxgC"
+      title = "Kakao Plus Friend"
+
+
+
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "TermPolicy/PrivacyPolicy.html"
+
+    [[params.footer.quicklinks]]
+      text = "Terms of Use"
+      link = "TermPolicy/TermOfUse.html"

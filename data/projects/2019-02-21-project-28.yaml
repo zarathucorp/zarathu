@@ -1,0 +1,10 @@
+modalID: 28
+title: "회귀분석결과 테이블 만들기"  
+subtitle: "jstable: R package for publication quality Kaplan-Meier plot with at risk tables below."
+date: 2019-02-21
+img: jstable2.png
+preview: jstable2.png
+client: Jinseob Kim
+clientLink: "https://jinseob2kim.github.io/jstable/"
+category: R package
+description: "회귀분석결과 테이블을 만드는 R 패키지를 개발하여 [CRAN](https://CRAN.R-project.org/package=jstable)에 배포하였습니다. 현재 지원되는 모형은 generalized linear model(GLM), generalized estimating equation(GEE), generalized linear mixed-effects model(GLMM), Cox proportional hazards model, survey-weighted generalized linear model(svyglm)과 survey-weighted Cox model 입니다."

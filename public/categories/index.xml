@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Anpanman - Medical Research Supporters</title>
+    <link>https://www.anpanman.co.kr/categories/</link>
+    <description>Recent content in Categories on Anpanman - Medical Research Supporters</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.anpanman.co.kr/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R</title>
+      <link>https://www.anpanman.co.kr/categories/r/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>https://www.anpanman.co.kr/categories/r/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
