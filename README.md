@@ -1,4 +1,4 @@
-# Anpanman
+# Zarathu
 Hompage: Zarathu(www.zarathu.com)
 
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=www.zarathu.com)](http://www.www.zarathu.com)
