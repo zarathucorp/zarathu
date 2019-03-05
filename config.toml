@@ -20,7 +20,7 @@ googleAnalytics = "UA-135478021-1"
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "ZARATHU"
+  name = "Zarathu"
   description = "Medical Research Supporters"
   email = "jinseob2kim@gmail.com"
 
@@ -348,7 +348,7 @@ googleAnalytics = "UA-135478021-1"
   # Footer section
   [params.footer]
     enable = true
-    copyright = "&copy;2019 ZARATHU Co.,Ltd. All rights reserved."
+    copyright = "&copy;2019 Zarathu Co.,Ltd. All rights reserved."
 
     [[params.footer.social]]
       icon = "fa-github"
