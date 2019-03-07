@@ -161,6 +161,12 @@ googleAnalytics = "UA-135478021-1"
       date = "August 2018"
       title = "회사 설립"
       description = "회사를 설립하였습니다."
+    
+    [[params.about.events]]
+      img = "logo.jpg"
+      date = "March 2019"
+      title = "차라투 주식회사로 상호변경"
+      description = "차라투 주식회사(Zarathu Co.,Ltd)로 상호를 변경하였습니다."
 
 
   # Team section
