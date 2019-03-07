@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+https://anpanman.co.kr/* https://www.zarathu.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://zarathu.netlify.com/* https://www.zarathu.com/:splat 301!
