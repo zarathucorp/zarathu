@@ -357,7 +357,7 @@ googleAnalytics = "UA-135478021-1"
 
     [[params.footer.social]]
       icon = "fa-facebook"
-      link = "https://www.facebook.com/anpanmancorp"
+      link = "https://www.facebook.com/zarathucorp"
       title = "Facebook"
 
     [[params.footer.social]]
