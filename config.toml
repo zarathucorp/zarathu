@@ -280,13 +280,18 @@ googleAnalytics = "UA-135478021-1"
         logo = "cauhs.gif"
         link = "http://ch.cauhs.or.kr/"
       
-      #[[params.clients]]
-      #  logo = "logo_ilsan.png"
-      #  link = "http://www.paik.ac.kr/ilsan/"
+      [[params.clients]]
+        logo = "logo_ilsan.png"
+        link = "http://www.paik.ac.kr/ilsan/"
         
       [[params.clients]]
         logo = "kscvi_bifur.png"
         link = "http://www.kscvi.org/new_ksic2015/community/main/kbc/"  
+        
+      
+      [[params.clients]]
+        logo = "ewha1.jpeg"
+        link = "https://www.eumc.ac.kr/mokdong/"   
 
 
 
