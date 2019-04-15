@@ -292,6 +292,10 @@ googleAnalytics = "UA-135478021-1"
       [[params.clients]]
         logo = "ewha1.jpeg"
         link = "https://www.eumc.ac.kr/mokdong/"   
+      
+      [[params.clients]]
+        logo = "hanyang_guri.png"
+        link = "https://guri.hyumc.com/"
 
 
 
