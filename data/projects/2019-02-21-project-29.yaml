@@ -2,8 +2,8 @@ modalID: 29
 title: "웹 기반 의학통계"  
 subtitle: "jsmodule: Rstudio addin for medical research"
 date: 2019-02-21
-img: addin.gif
-preview: addin.gif
+img: roc.png
+preview: roc.png
 client: Jinseob Kim
 clientLink: "https://jinseob2kim.github.io/jsmodule/"
 category: R package
