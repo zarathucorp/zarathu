@@ -296,6 +296,14 @@ googleAnalytics = "UA-135478021-1"
       [[params.clients]]
         logo = "hanyang_guri.png"
         link = "https://guri.hyumc.com/"
+        
+      [[params.clients]]
+        logo = "chonnam.jpg"
+        link = "https://www.cnuh.com/"
+      
+      [[params.clients]]
+        logo = "wsanbon.png"
+        link = "https://www.wmcsb.co.kr/"
 
 
 
