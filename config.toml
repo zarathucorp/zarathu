@@ -249,7 +249,7 @@ googleAnalytics = "UA-135478021-1"
         link = "http://opendata.hira.or.kr/"
         
       [[params.clients]]
-        logo = "smc.jpg"
+        logo = "smc.png"
         link = "http://www.samsunghospital.com/"
       
       [[params.clients]]
@@ -269,7 +269,7 @@ googleAnalytics = "UA-135478021-1"
         link = "https://www.kdh.or.kr:446/"
       
       [[params.clients]]
-        logo = "bh.jpg"
+        logo = "bh.gif"
         link = "https://seoul.bohun.or.kr/000main/index.php"
       
       [[params.clients]]
@@ -277,7 +277,7 @@ googleAnalytics = "UA-135478021-1"
         link = "http://www.ncmh.go.kr/"
       
       [[params.clients]]
-        logo = "cauhs.gif"
+        logo = "cauhs.jpg"
         link = "http://ch.cauhs.or.kr/"
       
       [[params.clients]]
