@@ -304,6 +304,10 @@ googleAnalytics = "UA-135478021-1"
       [[params.clients]]
         logo = "wsanbon.png"
         link = "https://www.wmcsb.co.kr/"
+        
+      [[params.clients]]
+        logo = "kiman.png"
+        link = "http://www.kimeye.com/"
 
 
 
