@@ -310,7 +310,7 @@ googleAnalytics = "UA-135478021-1"
         link = "http://www.kimeye.com/"
         
       [[params.clients]]
-        logo = "transplantation.jpeg"
+        logo = "transplantation.jpg"
         link = "http://www.mykst.org/"
 
 
