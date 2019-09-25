@@ -312,6 +312,10 @@ googleAnalytics = "UA-135478021-1"
       [[params.clients]]
         logo = "transplantation.jpg"
         link = "http://www.mykst.org/"
+        
+      [[params.clients]]
+        logo = "snubh.jpg"
+        link = "https://www.snubh.org/"  
 
 
 
