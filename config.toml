@@ -316,6 +316,10 @@ googleAnalytics = "UA-135478021-1"
       [[params.clients]]
         logo = "snubh.jpg"
         link = "https://www.snubh.org/"  
+        
+      [[params.clients]]
+        logo = "inje_pusan.png"
+        link = "http://www.paik.ac.kr/busan/" 
 
 
 
