@@ -320,6 +320,10 @@ googleAnalytics = "UA-135478021-1"
       [[params.clients]]
         logo = "inje_pusan.png"
         link = "http://www.paik.ac.kr/busan/" 
+      
+      [[params.clients]]
+        logo = "army.png"
+        link = "http://afmd.mnd.go.kr/" 
 
 
 
