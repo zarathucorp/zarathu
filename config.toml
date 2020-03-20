@@ -328,6 +328,14 @@ googleAnalytics = "UA-135478021-1"
       [[params.clients]]
         logo = "army.png"
         link = "http://afmd.mnd.go.kr/" 
+        
+      [[params.clients]]
+        logo = "snuh.jpeg"
+        link = "https://www.snuh.org/" 
+      
+      [[params.clients]]
+        logo = "catholic.jpg"
+        link = "https://www.cmcseoul.or.kr/" 
 
 
 
