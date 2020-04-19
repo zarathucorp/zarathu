@@ -1,0 +1,10 @@
+modalID: 38
+title: "우울증 네트워크분석"  
+subtitle: "The Centrality of Depression and Anxiety Symptoms in Major Depressive Disorder Determined Using a Network Analysis"
+date: 2020-04-15
+img: mdd2020_scpark2.png
+preview: mdd2020_scpark1.png
+client: 해운대백병원 정신과  
+clientLink: "https://www.paik.ac.kr/haeundae/dept/doctors.asp?cid=795"
+category: Article
+description: "인제대학교 해운대백병원 정신과 박선철 교수님을 도와, 우울증 환자들의 우울, 불안 증상들이 어떻게 연관되어 있는지 확인하는 네트워크분석 웹을 개발하였습니다. 이 연구는 [Journal of Affective Disorders](https://doi.org/10.1016/j.jad.2020.03.078)에 게재되었습니다(IF: 4.084)."
