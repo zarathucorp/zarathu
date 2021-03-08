@@ -1,0 +1,10 @@
+modalID: 48
+title: "NSAIDs 와 Covid-19 연관성"
+subtitle: "Non-steroidal anti-inflammatory agent use may not be associated with mortality of coronavirus disease 19"
+date: 2021-03-03
+img: nsaidscovid2021_kmyang2.png
+preview: nsaidscovid2021_kmyang1.png
+client: 삼성서울병원 건강의학센터 
+clientLink: "http://samsunghospital.com/home/reservation/deptDetailInfo.do?DP_CODE=SM&TYPE=02"
+category: Article
+description: "삼성서울병원 건강의학센터 양광모 교수팀을 도와 [OMOP-CDM](http://www.ohdsi-korea.org/html/) 변환된 [심평원 Covid-19 데이터](https://hira-covid19.net/)를 분석, NSAIDs 복용이 Covid-19 사망과 연관성이 없음을 설명하였습니다. 본 연구는 [Scientific Reports](https://www.nature.com/articles/s41598-021-84539-5) 에 게재되었습니다(IF 3.998)."
