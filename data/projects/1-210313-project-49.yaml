@@ -1,0 +1,10 @@
+modalID: 49
+title: "RAAS inhibitor 와 Covid-19 연관성"
+subtitle: "Effect of renin-angiotensin-aldosterone system inhibitors on Covid-19 patients in Korea"
+date: 2021-03-11
+img: raascovid2021_kmyang2.png
+preview: raascovid2021_kmyang1.png
+client: 삼성서울병원 건강의학센터 
+clientLink: "http://samsunghospital.com/home/reservation/deptDetailInfo.do?DP_CODE=SM&TYPE=02"
+category: Article
+description: "삼성서울병원 건강의학센터 양광모 교수팀을 도와 [OMOP-CDM](http://www.ohdsi-korea.org/html/) 변환된 [심평원 Covid-19 데이터](https://hira-covid19.net/)를 분석, RAAS inhibitors 복용이 Covid-19 사망과 연관성이 없음을 설명하였습니다. 본 연구는 [PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0248058) 에 게재되었습니다(IF 2.740)."
