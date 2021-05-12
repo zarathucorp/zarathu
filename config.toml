@@ -167,6 +167,12 @@ googleAnalytics = "UA-135478021-1"
       date = "March 2019"
       title = "차라투 주식회사로 상호변경"
       description = "차라투 주식회사(Zarathu Co.,Ltd)로 상호를 변경하였습니다."
+      
+    [[params.about.events]]
+      img = "venture.png"
+      date = "April 2021"
+      title = "벤처기업인증"
+      description = "벤처기업(혁신성장유형) 으로 인증받았습니다."
 
 
   # Team section
