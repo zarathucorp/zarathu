@@ -170,7 +170,7 @@ googleAnalytics = "UA-135478021-1"
       description = "벤처기업(혁신성장유형) 으로 인증받았습니다."
       
     [[params.about.events]]
-      img = "untact_kstartup.png"
+      img = "kstartup2.png"
       date = "May 2021"
       title = "비대면스타트업 육성사업 선정"
       description = "중소벤처기업부 주관 '비대면 스타트업 육성사업(비대면 의료 분야, 보건산업진흥원 주관)' 에 선정되었습니다(주제: 블록체인 기반 의료데이터 입력, 관리, 분석 플랫폼)."
