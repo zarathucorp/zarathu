@@ -178,7 +178,7 @@ googleAnalytics = "UA-135478021-1"
     [[params.about.events]]
       img = "oss_nipa.png"
       date = "June 2021"
-      title = "공개소프트웨어 기반 창업기업"
+      title = "공개소프트웨어 기반 창업기업 선정"
       description = "정보통신산업진흥원 주관 '공개소프트웨어 기반 창업기업' 에 선정되었습니다(주제: 블록체인 기반 의료데이터 입력, 관리, 분석 플랫폼)."
 
 
