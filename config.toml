@@ -26,7 +26,7 @@ googleAnalytics = "UA-135478021-1"
 
   # Link custom assets relative to /static
   custom_css = []
-  custom_js  = ["js/channel.js"]
+  custom_js  = ["assets/js/channel.js"]
   favicon    = "favicon_anpanman.ico"
 
   # Possibility to disable external/additional fonts
