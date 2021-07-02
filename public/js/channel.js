@@ -1,4 +1,3 @@
-<!-- Channel Plugin Scripts -->
 <script>
   (function() {
     var w = window;
@@ -39,4 +38,3 @@
     "pluginKey": "07125dd3-591a-44d4-a746-653b3f6da160"
   });
 </script>
-<!-- End Channel Plugin -->
