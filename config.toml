@@ -353,11 +353,11 @@ googleAnalytics = "UA-135478021-1"
 
 
   # Contact section
-  [params.contact]
-    enable = true
-    title = "Contact us"
-    subtitle  = ""
-    buttonText = "Send message"
+#  [params.contact]
+#    enable = true
+#    title = "Contact us"
+#    subtitle  = ""
+#    buttonText = "Send message"
     #netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -388,21 +388,21 @@ googleAnalytics = "UA-135478021-1"
       #sitekey = ""
 
     # 'warning' defines error messages for invalid inputs
-    [params.contact.form.name]
-      text = "Your Name *"
-      warning = "Please enter your name."
+#    [params.contact.form.name]
+#      text = "Your Name *"
+#      warning = "Please enter your name."
 
-    [params.contact.form.email]
-      text = "Your Email *"
-      warning = "Please enter your email address."
+#    [params.contact.form.email]
+#      text = "Your Email *"
+#      warning = "Please enter your email address."
 
-    [params.contact.form.phone]
-      text = "Your Phone *"
-      warning = "Please enter your phone number."
+#    [params.contact.form.phone]
+#      text = "Your Phone *"
+#      warning = "Please enter your phone number."
 
-    [params.contact.form.message]
-      text = "Your Message *"
-      warning = "Please enter a message."
+#    [params.contact.form.message]
+#      text = "Your Message *"
+#      warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
@@ -416,7 +416,7 @@ googleAnalytics = "UA-135478021-1"
   # Footer section
   [params.footer]
     enable = true
-    copyright = "&copy;2019 Zarathu Co.,Ltd. All rights reserved."
+    copyright = "&copy;2021 Zarathu Co.,Ltd. All rights reserved."
 
     [[params.footer.social]]
       icon = "fa-github"
