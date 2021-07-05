@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.zarathu.com/"
+baseurl = "https://optimistic-sinoussi-221851.netlify.app"
 languageCode = "en-us"
 title = "Zarathu - Medical Research Supporters"
 theme = "hugo-agency-theme"
